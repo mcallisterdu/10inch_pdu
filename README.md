@@ -38,6 +38,7 @@ Use **`pdu_10inch_1u_x1c.3mf`** to open the ready-to-print project in **Bambu St
 | `pdu_10inch_1u.3mf` / `.step` / `.stl` | Raw exported 3D CAD / mesh geometry |
 | `bambu_x1c_petg_project_settings.json` | Exported Bambu Studio PETG project settings reference |
 | `pdu_preview_iso.svg` | Isometric vector preview |
+| [`WIRING.md`](WIRING.md) | AC/DC wiring schematic, wire gauges, inline fuse placements, and device connector guide |
 
 ## Regenerating CAD Exports
 
