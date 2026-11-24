@@ -39,6 +39,7 @@ Use **`pdu_10inch_1u_x1c.3mf`** to open the ready-to-print project in **Bambu St
 | `bambu_x1c_petg_project_settings.json` | Exported Bambu Studio PETG project settings reference |
 | `pdu_preview_iso.svg` | Isometric vector preview |
 | [`WIRING.md`](WIRING.md) | AC/DC wiring schematic, wire gauges, inline fuse placements, and device connector guide |
+| [`pcb/PCB_DESIGN.md`](pcb/PCB_DESIGN.md) | Prototype integrated power PCB (Mean Well IRM-60-12, TI LMR33640 12V→5V 4A buck, fused 12V/5V/GND rails, BOM, KiCad files, 3D STEP & Gerbers) |
 
 ## Regenerating CAD Exports
 

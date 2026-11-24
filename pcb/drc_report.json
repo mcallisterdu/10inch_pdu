@@ -1,0 +1,613 @@
+{
+    "$schema": "https://schemas.kicad.org/drc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-24T13:14:32",
+    "ignored_checks": [
+        {
+            "description": "Footprint has no courtyard defined",
+            "key": "missing_courtyard"
+        },
+        {
+            "description": "Track endpoint not centered on via",
+            "key": "track_not_centered_on_via"
+        },
+        {
+            "description": "Tuning profile track geometries",
+            "key": "tuning_profile_track_geometries"
+        },
+        {
+            "description": "Footprint doesn't match symbol's footprint filters",
+            "key": "footprint_filters_mismatch"
+        },
+        {
+            "description": "Footprint component type doesn't match footprint pads",
+            "key": "footprint_type_mismatch"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.8",
+    "schematic_parity": [],
+    "source": "pdu_pcb.kicad_pcb",
+    "unconnected_items": [],
+    "violations": [
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "PCB text '5V-2 LUTRON (1A)' on F.Silkscreen",
+                    "pos": {
+                        "x": 50.0,
+                        "y": 66.2
+                    },
+                    "uuid": "3f50a392-6695-4921-8128-17b0ddcce6ac"
+                },
+                {
+                    "description": "Reference field of F6",
+                    "pos": {
+                        "x": 49.96,
+                        "y": 67.33
+                    },
+                    "uuid": "530bbc4b-6d44-42ea-adc4-2b94cca0fab5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of U1 on F.Silkscreen",
+                    "pos": {
+                        "x": 48.5,
+                        "y": 10.8
+                    },
+                    "uuid": "d8a24232-c5ba-43c9-8ad2-35faaf55f6a7"
+                },
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 1.0,
+                        "y": 60.0
+                    },
+                    "uuid": "f32204fb-4123-4d96-8907-0535b714b5ef"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon of J_5V_2 on F.Silkscreen",
+                    "pos": {
+                        "x": 47.5,
+                        "y": 88.12
+                    },
+                    "uuid": "24f3356d-65f2-4fef-97f3-c3ef32c80105"
+                },
+                {
+                    "description": "PCB text '+   -' on F.Silkscreen",
+                    "pos": {
+                        "x": 50.0,
+                        "y": 88.2
+                    },
+                    "uuid": "2d4ec569-97a7-4776-bb82-fbd85cecf52d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "PCB text '+   -' on F.Silkscreen",
+                    "pos": {
+                        "x": 50.0,
+                        "y": 88.2
+                    },
+                    "uuid": "2d4ec569-97a7-4776-bb82-fbd85cecf52d"
+                },
+                {
+                    "description": "Segment of J_5V_2 on F.Silkscreen",
+                    "pos": {
+                        "x": 55.12,
+                        "y": 88.12
+                    },
+                    "uuid": "c37efb05-59e9-414c-93cc-9c9e8082b5d0"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment on F.Silkscreen",
+                    "pos": {
+                        "x": 62.0,
+                        "y": 1.0
+                    },
+                    "uuid": "141b0d52-38b0-4956-bd8b-ea81bf3896cf"
+                },
+                {
+                    "description": "Segment of U1 on F.Silkscreen",
+                    "pos": {
+                        "x": 135.9,
+                        "y": 10.8
+                    },
+                    "uuid": "53af03bf-974f-4807-aa0b-f1b8464e35a9"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "PCB text '5V-3 AUX (2A)' on F.Silkscreen",
+                    "pos": {
+                        "x": 82.0,
+                        "y": 66.2
+                    },
+                    "uuid": "de96e397-3141-426b-9386-4fa491d96ae3"
+                },
+                {
+                    "description": "Reference field of F8",
+                    "pos": {
+                        "x": 81.96,
+                        "y": 67.33
+                    },
+                    "uuid": "ed04104b-530e-430e-999f-441b93afebc1"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J_5V_3 on F.Silkscreen",
+                    "pos": {
+                        "x": 87.12,
+                        "y": 88.12
+                    },
+                    "uuid": "aa8a0e25-e4a0-4962-81e2-a9a4755b9468"
+                },
+                {
+                    "description": "PCB text '+   -' on F.Silkscreen",
+                    "pos": {
+                        "x": 82.0,
+                        "y": 88.2
+                    },
+                    "uuid": "ba816ac1-9cb6-43ac-8be1-f197d4e5370b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon of J_5V_3 on F.Silkscreen",
+                    "pos": {
+                        "x": 79.5,
+                        "y": 88.12
+                    },
+                    "uuid": "67d91fe8-5100-455d-9ab4-8ad232122f9c"
+                },
+                {
+                    "description": "PCB text '+   -' on F.Silkscreen",
+                    "pos": {
+                        "x": 82.0,
+                        "y": 88.2
+                    },
+                    "uuid": "ba816ac1-9cb6-43ac-8be1-f197d4e5370b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "PCB text '5V-1 HUE (2A)' on F.Silkscreen",
+                    "pos": {
+                        "x": 18.0,
+                        "y": 66.2
+                    },
+                    "uuid": "e9c7c2dd-4dca-43ce-b8ed-6269536ef0a3"
+                },
+                {
+                    "description": "Reference field of F5",
+                    "pos": {
+                        "x": 17.96,
+                        "y": 67.33
+                    },
+                    "uuid": "f36dae3d-b14e-4c83-93fb-b69cb86e7c74"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "PCB text '+   -' on F.Silkscreen",
+                    "pos": {
+                        "x": 18.0,
+                        "y": 88.2
+                    },
+                    "uuid": "2c5aaa4e-7be7-4a5b-b16a-f4002c8ce1f6"
+                },
+                {
+                    "description": "Polygon of J_5V_1 on F.Silkscreen",
+                    "pos": {
+                        "x": 15.5,
+                        "y": 88.12
+                    },
+                    "uuid": "89e0482c-8120-4ac2-a215-08848b7eecf5"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "PCB text '+   -' on F.Silkscreen",
+                    "pos": {
+                        "x": 18.0,
+                        "y": 88.2
+                    },
+                    "uuid": "2c5aaa4e-7be7-4a5b-b16a-f4002c8ce1f6"
+                },
+                {
+                    "description": "Segment of J_5V_1 on F.Silkscreen",
+                    "pos": {
+                        "x": 23.12,
+                        "y": 88.12
+                    },
+                    "uuid": "b315dd6a-fc04-425a-96df-7f5127a70055"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "PCB text '12V-3 AUX (2A)' on F.Silkscreen",
+                    "pos": {
+                        "x": 114.0,
+                        "y": 66.2
+                    },
+                    "uuid": "27a4eac0-1a04-447e-870c-84867b97d9de"
+                },
+                {
+                    "description": "Reference field of F7",
+                    "pos": {
+                        "x": 113.96,
+                        "y": 67.33
+                    },
+                    "uuid": "5b5f22f4-ee1c-48ac-b266-74d7b0c39c59"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "PCB text '+   -' on F.Silkscreen",
+                    "pos": {
+                        "x": 114.0,
+                        "y": 88.2
+                    },
+                    "uuid": "7fbbbb9a-c6d6-4004-92b1-3803d043d495"
+                },
+                {
+                    "description": "Segment of J_12V_3 on F.Silkscreen",
+                    "pos": {
+                        "x": 119.12,
+                        "y": 88.12
+                    },
+                    "uuid": "aaf66351-ed18-4525-819a-26a0c20c8f3b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "PCB text '+   -' on F.Silkscreen",
+                    "pos": {
+                        "x": 114.0,
+                        "y": 88.2
+                    },
+                    "uuid": "7fbbbb9a-c6d6-4004-92b1-3803d043d495"
+                },
+                {
+                    "description": "Polygon of J_12V_3 on F.Silkscreen",
+                    "pos": {
+                        "x": 111.5,
+                        "y": 88.12
+                    },
+                    "uuid": "cab86db9-3926-41b1-8063-7ea364f2e6ff"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of F4",
+                    "pos": {
+                        "x": 145.96,
+                        "y": 67.33
+                    },
+                    "uuid": "57857a70-b04a-4636-98ac-74a1a011a3b3"
+                },
+                {
+                    "description": "PCB text '12V-2 NETGEAR (2A)' on F.Silkscreen",
+                    "pos": {
+                        "x": 146.0,
+                        "y": 66.2
+                    },
+                    "uuid": "ef7561c0-1d0a-49d2-8b34-d069a3387430"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Polygon of J_12V_2 on F.Silkscreen",
+                    "pos": {
+                        "x": 143.5,
+                        "y": 88.12
+                    },
+                    "uuid": "1e00d51c-0bf8-4642-8616-998a500acbaa"
+                },
+                {
+                    "description": "PCB text '+   -' on F.Silkscreen",
+                    "pos": {
+                        "x": 146.0,
+                        "y": 88.2
+                    },
+                    "uuid": "5f70de5e-78fb-4694-947a-7c465d98e35d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J_12V_2 on F.Silkscreen",
+                    "pos": {
+                        "x": 151.12,
+                        "y": 88.12
+                    },
+                    "uuid": "3b62bb54-a9e6-4969-965a-05d785fd9f50"
+                },
+                {
+                    "description": "PCB text '+   -' on F.Silkscreen",
+                    "pos": {
+                        "x": 146.0,
+                        "y": 88.2
+                    },
+                    "uuid": "5f70de5e-78fb-4694-947a-7c465d98e35d"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of F3",
+                    "pos": {
+                        "x": 177.96,
+                        "y": 67.33
+                    },
+                    "uuid": "0c746da7-5403-46a7-81a7-9bc3c7adc719"
+                },
+                {
+                    "description": "PCB text '12V-1 ODROID (3A)' on F.Silkscreen",
+                    "pos": {
+                        "x": 178.0,
+                        "y": 66.2
+                    },
+                    "uuid": "24f2e80a-b70d-4786-8d16-d83193fd4dd9"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of J_12V_1 on F.Silkscreen",
+                    "pos": {
+                        "x": 183.12,
+                        "y": 88.12
+                    },
+                    "uuid": "1ffce6ec-7e31-4182-bb49-4d92c936ce1e"
+                },
+                {
+                    "description": "PCB text '+   -' on F.Silkscreen",
+                    "pos": {
+                        "x": 178.0,
+                        "y": 88.2
+                    },
+                    "uuid": "8a85dde1-1227-4f26-ac0c-913b7bd7393b"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "PCB text '+   -' on F.Silkscreen",
+                    "pos": {
+                        "x": 178.0,
+                        "y": 88.2
+                    },
+                    "uuid": "8a85dde1-1227-4f26-ac0c-913b7bd7393b"
+                },
+                {
+                    "description": "Polygon of J_12V_1 on F.Silkscreen",
+                    "pos": {
+                        "x": 175.5,
+                        "y": 88.12
+                    },
+                    "uuid": "afbceba8-9718-49c1-9226-7e59c8f33385"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Segment of LED2 on F.Silkscreen",
+                    "pos": {
+                        "x": 156.0,
+                        "y": 12.96
+                    },
+                    "uuid": "292e8476-e004-4d27-b9f4-e493d3430991"
+                },
+                {
+                    "description": "Reference field of LED2",
+                    "pos": {
+                        "x": 157.0,
+                        "y": 13.65
+                    },
+                    "uuid": "311666fb-0e1a-4d8d-acbc-3f874d4bdfb0"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of R_FB1",
+                    "pos": {
+                        "x": 173.5,
+                        "y": 35.65
+                    },
+                    "uuid": "68a6b2ac-eaae-4fc5-8e9e-a3adaf50027c"
+                },
+                {
+                    "description": "Reference field of R_FB2",
+                    "pos": {
+                        "x": 173.5,
+                        "y": 36.35
+                    },
+                    "uuid": "9b5adb83-9ad8-4477-b70e-ee7fc5e1899e"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of R_EN2",
+                    "pos": {
+                        "x": 157.5,
+                        "y": 35.35
+                    },
+                    "uuid": "dacd9c9e-1c82-436f-b27d-f26fa8dd1492"
+                },
+                {
+                    "description": "Reference field of R_EN1",
+                    "pos": {
+                        "x": 157.5,
+                        "y": 34.65
+                    },
+                    "uuid": "f53742a1-1787-4e00-b415-2eb0c14a8944"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of LED1",
+                    "pos": {
+                        "x": 143.0,
+                        "y": 15.65
+                    },
+                    "uuid": "006d4470-7198-420d-b77f-5bac1fb6ce3e"
+                },
+                {
+                    "description": "Segment of LED1 on F.Silkscreen",
+                    "pos": {
+                        "x": 142.0,
+                        "y": 14.96
+                    },
+                    "uuid": "5b23d266-6da3-494e-8a77-e917dfaa75c3"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        },
+        {
+            "description": "Silkscreen clearance",
+            "items": [
+                {
+                    "description": "Reference field of C_VCC",
+                    "pos": {
+                        "x": 175.0,
+                        "y": 27.82
+                    },
+                    "uuid": "f5fb8918-bcb6-43c9-a4ed-43a904ba81c7"
+                },
+                {
+                    "description": "Reference field of C_BOOT",
+                    "pos": {
+                        "x": 173.32,
+                        "y": 24.5
+                    },
+                    "uuid": "f85245bf-59b6-4232-845c-dbd53a797046"
+                }
+            ],
+            "severity": "warning",
+            "type": "silk_overlap"
+        }
+    ]
+}

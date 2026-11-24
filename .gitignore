@@ -13,3 +13,9 @@ wheels/
 
 # macOS artifacts
 .DS_Store
+
+# SKiDL & KiCad scratch/session files
+*.erc
+*.log
+*_sklib.py
+*.kicad_prl
